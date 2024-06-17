@@ -28,6 +28,8 @@
     <script type="text/javascript">
 
         var authCode = getParameterByName('code');
+        console.log("get authCode");
+        console.log(authCode);
         var errorCode = getParameterByName('error');
         var responseState = getParameterByName('state');
         var errorDescroption = getParameterByName('error_description');
